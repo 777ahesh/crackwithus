@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 2px 2px 2px 1px rgba(226, 171, 245, 0.433);
+  }
+  
+  .navbar li a {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black !important;
+    -webkit-transition: 0.7s all;
+    transition: 0.7s all;
+  }
+  
+  .navbar li a:hover {
+    color: #565387;
+    border-bottom: 1px solid #565387 !important;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  
+  /* .nav-link .active {
+    font-weight: bold!important;
+    border-bottom: 1px solid #565387!important;
+    text-decoration: none;
+  } */
+
+  .nav-link:active{
+    font-weight: bold!important;
+    border-bottom: 1px solid #565387!important;
+  }
+  
+  .navbar-brand {
+    font-size: 2.2rem !important;
+    color: #1f1f1f !important;
+    padding-left: 5px!important;
+    display: flex!important;
+  }
+  
+  .navbar-brand-purple {
+    font-size: 2.2rem !important;
+    color: #9e81c4 !important;
+  }
+  
+
+  .cwus{
+    width:65px;
+    height:39px;
+  }
+  .name{
+      font-family: 'Mr Dafoe';
+      margin: 0;
+      font-size: 2.7rem;
+      margin-top: 0em;
+      color: white;
+      text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+      transform: rotate(-3deg);
+
+  }

@@ -1,0 +1,44 @@
+.contactus{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+   justify-content: center;
+   align-items: center;
+   margin:auto;
+    top:180px;
+}
+
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg, rgb(96, 197, 184) 55%, #fff 0%);
+   
+    z-index: -1;
+}
+
+.form-button1 button{
+    border: 1px solid #18bad6 ;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #29c0d4;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+
+/* form:hover .form-button1 button{
+    background: white;
+    color: #50d1c0;
+} */
+
+::placeholder{
+    font-size: 0.85rem;
+}

@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+  font-family: 'Ubuntu Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (max-width:1000px){
+  body{
+    overflow-y: scroll;
+  };
+
+}
+
+/*-----------------------------------*\ 
+  #VARIABLE
+\*-----------------------------------*/
+/*** colors */
+/*** spacing */
+/*-----------------------------------*\ 
+    #RESET
+  \*-----------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'Fredoka', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+html {
+  font-family: 'Public Sans', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 70.5%;
+}
+
+img, span, svg {
+  display: block;
+}
+
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+  text-decoration: none;
+}
+
+h1 {
+  color: #565387;
+}
+
+/*
+  =========================================== Header Section ============================================================
+*/
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 3rem;
+  font: weight 700px;
+  color: black;
+}
+
+#header .brand-name {
+  color: #9e81c4;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 2rem;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #9e81c4;
+  border: 2px solid #9e81c4;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background-color: #9e81c4;
+  color: #fff;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+/*Course Section*/
+.header-extradiv h1 {
+  margin-bottom: 50px;
+}
+
+.header-extradiv {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.extra-div {
+  background: #fff;
+  border: medium none;
+  padding: 50px !important;
+  border-radius: 3px;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  text-align: center;
+}
+
+.extra-div:hover {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.btn1 a {
+  border: 1px solid #9e81c4 !important;
+  color: #655a5a !important;
+  border-radius: 100px;
+  margin: 0.5px;
+  padding: 12px 35px;
+  outline: none;
+  font-size: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.header-buttons a {
+  border: 1px solid #fff;
+  color: whitesmoke;
+  border-radius: 100px;
+  margin: 0.5px;
+  padding: 12px 35px;
+  outline: none;
+  font-size: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-buttons a:hover {
+  color: #9e81c4;
+  background: #fff;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  height: 5rem;
+  margin: auto;
+}
+
+.mar {
+  margin: 8% !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.course-title {
+  color: #9e81c4;
+  font-weight: 700;
+}
+
+/*Course Section*/
+/*
+    DEMO STYLE
+*/
+.activeSide {
+  display: none !important;
+}
+
+.btn-side {
+  display: block !important;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 999;
+  background: #cd97f1;
+  color: #fff;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  overflow-y: scroll;
+  -webkit-box-shadow: 3px 3px 3px rgba(41, 40, 40, 0.2);
+          box-shadow: 3px 3px 3px rgba(41, 40, 40, 0.2);
+  -webkit-overflow-y: scroll;
+  -ms-overflow-y: scroll;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#dismiss {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  color: #1c1e1e;
+  background: #e6e3e3;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#dismiss:hover {
+  background: #b679fc;
+  color: #1c1e1e;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(243, 215, 215, 0.7);
+  z-index: 998;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay.active {
+  display: block;
+  opacity: 1;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #d5b8e6;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #d2b2e0;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.26rem;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #c4a7d8;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  color: #fff;
+  background: #F1F0F2;
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 1.1rem !important;
+  padding-left: 30px !important;
+  background: #d2a9da;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+}
+
+a.article,
+a.article:hover {
+  background: #c073e4 !important;
+  color: #fff !important;
+}
+
+#sidebarCollapse {
+  background-color: #e6e3e3;
+  border: none;
+  color: black;
+}
+
+#sidebarCollapse:hover {
+  background-color: #c7a0f3;
+  border: none;
+  -webkit-box-shadow: 3px solid black;
+          box-shadow: 3px solid black;
+}
+
+.logo-text {
+  padding-left: 36px;
+  padding-right: 32px;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* li a {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black !important;
+}
+
+li a:hover {
+  color: #565387;
+  text-decoration: none;
+} */
+/*# sourceMappingURL=index.css.map */
