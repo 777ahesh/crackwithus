@@ -1,3 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-/config.env
+/node_modules
+/FINAL450.xlsx
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
